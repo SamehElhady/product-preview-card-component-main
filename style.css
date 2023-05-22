@@ -17,12 +17,15 @@
 .container1{
     margin: auto;
     margin-right: 0px;
+
+}
+.container1 img , .container1{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 .container1 img ,.container2,.container1{
-    width: 200px;
+    width: 250px;
     height: 360px; 
-    border-top-left-radius:10px ;  
-    border-bottom-left-radius: 10px;
 }
 .container2{
     background: hsl(0, 0%, 100%);
@@ -33,22 +36,30 @@
 }
 .row1{
     color: hsl(228, 12%, 48%);
+    letter-spacing: 2px;
 }
 .row2{
     font-size: 2em;
 }
 .row3{
     color: hsl(228, 12%, 48%);
+    font-size: 12px;
 }
 .row4{
     display: flex;
+    align-items: center;
 }
 .row4 h2{
     color: hsl(158, 36%, 37%);
     margin-right: 30px;
+    font-size: 18px;
 }
-.row4{
+
+.row4 p{
     color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-size: 11px;
+    margin-left: 20px;
 }
 .row5{
     width: 90%;
@@ -66,9 +77,13 @@
 }
 .row5 img{
     align-self: center;
+    margin-right: 10px;
+}
+.row5:hover{
+    
 }
 
 .row1,.row2,.row3,.row4,.row5{
-    margin: 10px;
+    margin: 15px;
 }
 
